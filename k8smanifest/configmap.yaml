@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demowebapp
+  namespace: demo-ns
+data:
+   sample.conf: |
+
+            { "sample": {
+                 "db": "demo.app.com",
+                 "user": "master"
+              }
+            }
