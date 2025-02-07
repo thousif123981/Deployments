@@ -9,5 +9,5 @@ spec:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Recycle
   awsElasticBlockStore:
-    volumeID: vol-0163dfe6cd3d7fda9
+    volumeID: vol-07c6da4486e807418
     fsType: ext4
