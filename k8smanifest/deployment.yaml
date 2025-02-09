@@ -17,7 +17,7 @@ spec:
     spec:
      containers:
        - name: demowebapp
-         image: 908027399517.dkr.ecr.ap-south-1.amazonaws.comdemoappimage:24
+         image: 908027399517.dkr.ecr.ap-south-1.amazonaws.com/demoappimage:27
          imagePullPolicy: IfNotPresent
          ports:
            - containerPort: 8080
